@@ -1,0 +1,184 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .container-n{
+   border: 1px solid #c2c2c2;
+   width: 100%;
+   height: 100px;
+   position: sticky;
+   top: 0%;
+   
+   background: darkslategray;
+   z-index: 1;
+ }
+  .image-f{
+   
+   overflow: hidden;
+ }
+ .image-f img{
+  width: 100%;
+  transition: all 0.5s linear;
+  
+  object-fit: cover;
+  overflow: hidden;
+} 
+
+.image-f img:hover{
+   transform: scale(1.1);
+} 
+.font-size{
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/* .text-right {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+} */
+.ff-left{
+  font-size: 50px;
+  padding: 10px 10px;
+}
+.ff-right{
+  font-size: 50px;
+  padding: 10px 10px;
+}
+.span-4{
+  position: absolute;
+  top:30px;
+  right: 23px;
+  width: 100%;
+  display: block;
+  color: #c2c2c2;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.inc, .count, .dec{
+  color: aqua;
+  padding: 7px 10px;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+ 
+   
+}
+.img-tag img{
+  width: 100%;
+}
+.main-inc{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background: brown;
+ 
+}
+.button-k{
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  border: none;
+   word-spacing: 15px;
+}
+/* td .image-tab img{
+  width:200px;
+  height: 200px;
+} */
+.text-centerr{
+  text-align: center !important;
+}
+.summary{
+  background: #f4f6f8;
+  padding: 10px;
+   
+}
+.main-dt{
+  background: #ce1616;
+  color: #f4f6f8;
+  padding: 10px 0;
+   
+}
+
+.checkout{
+  background: #4075aa;
+  padding: 10px;
+}
+.detail{
+  margin-left: 8rem !important;
+}
+
+@media (max-width:1400px){
+  /* .main-dev{
+    display: flex;
+    margin-left: 8rem !important;
+
+  
+    flex-wrap: wrap;
+  } */
+  .detail{
+    margin-left: 15rem !important;
+    width: 50%;
+  }
+   
+  
+  }
+
+  @media (max-width:1201px){
+    /* .main-dev{
+      display: flex;
+      margin-left: 8rem !important;
+  
+    
+      flex-wrap: wrap;
+    } */
+    .detail{
+      margin-left: 18rem !important;
+      width: 40%;
+    }
+     
+    
+    }
+
+    @media (max-width:580px){
+     
+      .button-tag{
+        margin-top: 3rem !important;
+        background: #ce1616;
+        border: 1px solid blue;
+         
+      }
+       
+      
+      }
+
+  @media (max-width:1000px){
+     
+    .detail{
+      margin-right: 60rem !important;
+      width: 100%;
+    }
+     
+    
+    }
+
+     
+
+    /* @media (max-width:700px){
+     
+      .ff-left{
+        font-size: 30px;
+        padding: 5px 5px;
+      }
+      .ff-right{
+        font-size: 30px;
+        padding: 5px 5px;
+      }
+      
+      } */
